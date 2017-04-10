@@ -1,0 +1,158 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.telephone a{
+		font-size: 21px;
+	}
+	.telephone p{
+		font-size: 11px;
+	}
+	.catalog p,
+	.text_basket p{
+		font-size: 12px;
+		padding-top: 5px;
+	}
+	.icon_basket{
+		padding-right: 25px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.telephone a{
+		font-size: 21px;
+	}
+	.telephone p{
+		font-size: 11px;
+	}
+	.basket{
+		margin: 20px 0 20px;
+	}
+	.info_bar{
+		display: flex;
+		justify-content: center;
+	}
+	.catalog p,
+	.text_basket p{
+		font-size: 18px;
+		margin: 0;
+	}
+	.icon_basket{
+		padding-right: 35px;
+	}
+	.top_mnu a{
+		padding: 14px 11px 14px 11px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	.top_mnu{
+		display: none;
+	}
+	.drop_menu{
+		display: block;
+		background-color: #fff;
+	}
+	.drop_menu li>a{
+		text-transform: uppercase;
+		color: #000;
+	}
+	.navbar-default .drop_nav>li>a:hover{
+		color: #008bff;
+		text-decoration: none;
+		background-color: #3c3c3c;
+	}
+	.logo_wrap{
+		display: none;
+	}
+	.form-search{
+		display: none;
+	}
+	.navbar-brand {
+		color: #f2f2f2;
+		font-family: "OpenSansSemibold";
+		font-size: 24px;
+		text-transform: uppercase;
+		letter-spacing: 12px;
+	}
+	.basket{
+		margin: 30px 0 30px;
+	}
+	.tel_info{
+		display: flex;
+		justify-content: center;
+	}
+	.call_info{
+		display: flex;
+		justify-content: center;
+	}
+	.call{
+		padding: 0;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.call_info{
+		padding-bottom: 20px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
